@@ -1,0 +1,69 @@
+/*ACA ESTA TODO EL CUERPO EN GRAL */
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/*ACA ESTA LA FOTO DEL ESCUDO DE LA FEDERACION DE TKD*/
+img[src="assets/international_tkd_federation.png"] {
+    border-style:outset;
+    border-radius: 10px;
+}
+/*ACA ESTA LA IMAGEN DE FONDO*/
+header{
+    background-image: url(assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: auto;
+}
+/*ACA ESTA EL TITULO DE TKD*/
+h1 {
+margin-top: 500px;
+text-decoration:underline;
+}
+/*ACA ESTA EL MENU */
+nav ul{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction:row;
+    padding: 30px;
+}
+/*ACA ESTA CADA BOTON DEL MENU */
+nav li{
+    margin: 20px;           
+    list-style:square;
+
+}
+/*ACA ESTA PARA CADA HIPERVINCULO */
+nav a {
+    text-decoration:none;
+    color: black;
+}
+/*ACA HIZO QUE CUANDO SELECCIONAMOS LOS HIPERVINCULOS SE PONGAN DE COLOR*/
+nav a:hover{
+    color:darksalmon      
+}
+/*ACA ESTA PARA LA IMAGEN CARICATURA */
+nav img {
+    display:flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*ACA ESTA PARA EL PARRAFO CON LA FRASE */
+p {
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    text-align: justify;
+    font-size: 20px;
+}
+/*ACA ESTA PARA LAS REDES */
+footer{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+/*ACA PARA TODAS LAS REDES*/
+img[src="assets//instagram.svg"]{
+    border-radius: 10px;
+}
