@@ -1,12 +1,14 @@
-/*ACA ESTA TODO EL CUERPO EN GRAL */
+/* PAGINA INDEX*/
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 /*ACA ESTA LA FOTO DEL ESCUDO DE LA FEDERACION DE TKD*/
 img[src="assets/international_tkd_federation.png"] {
-    border-style:outset;
-    border-radius: 10px;
+    border-style:groove;
+    margin-left: 20px;
 }
+
 /*ACA ESTA LA IMAGEN DE FONDO*/
 header{
     background-image: url(assets/fondo.jpg);
@@ -19,8 +21,11 @@ header{
 h1 {
 margin-top: 500px;
 text-decoration:underline;
+font-weight:800;
+margin-left: 20px;
+margin-bottom: 50px;
 }
-/*ACA ESTA EL MENU */
+/*ACA ESTA LA NAV BAR */
 nav ul{
     background-color: gainsboro;
     display: flex;
@@ -57,18 +62,28 @@ p {
     text-align: justify;
     font-size: 20px;
 }
-/*ACA ESTA PARA LAS REDES */
+/*FOOTER */
 footer{
     margin: 50px 50px 50px 50px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+
+}
+#final {
+    background-color: dimgrey;
+}
+h4 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white
+}
+footer li {
+    color: white;
+
 }
 /*ACA PARA TODAS LAS REDES*/
-img[src="assets//instagram.svg"]{
-    border-radius: 10px;
-}
+
+
 /*PAGINA HISTORIA*/
-/*PAGINA CONTACTENOS*/
-#columnas{
-    margin-top: 200px;
+historia.html h1 {
+    text-align: center;
 }
