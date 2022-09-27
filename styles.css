@@ -1,29 +1,11 @@
-/* PAGINA INDEX*/
+/*PARA TODAS LAS PAGINAS (body, foto ppal, barra nav, y footer) */
+
 body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-
 /*ACA ESTA LA FOTO DEL ESCUDO DE LA FEDERACION DE TKD*/
 img[src="assets/international_tkd_federation.png"] {
-    border-style:groove;
     margin-left: 20px;
-}
-
-/*ACA ESTA LA IMAGEN DE FONDO*/
-header{
-    background-image: url(assets/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    width: auto;
-}
-/*ACA ESTA EL TITULO DE TKD*/
-h1 {
-margin-top: 500px;
-text-decoration:underline;
-font-weight:800;
-margin-left: 20px;
-margin-bottom: 50px;
 }
 /*ACA ESTA LA NAV BAR */
 nav ul{
@@ -31,12 +13,13 @@ nav ul{
     display: flex;
     flex-direction:row;
     padding: 30px;
+    justify-content: center;
+    margin: auto;
 }
 /*ACA ESTA CADA BOTON DEL MENU */
 nav li{
     margin: 20px;           
     list-style:square;
-
 }
 /*ACA ESTA PARA CADA HIPERVINCULO */
 nav a {
@@ -47,21 +30,7 @@ nav a {
 nav a:hover{
     color:darksalmon      
 }
-/*ACA ESTA PARA LA IMAGEN CARICATURA */
-nav img {
-    display:flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-/*ACA ESTA PARA EL PARRAFO CON LA FRASE */
-p {
-    margin-right: 250px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 250px;
-    text-align: justify;
-    font-size: 20px;
-}
+
 /*FOOTER */
 footer{
     margin: 50px 50px 50px 50px;
@@ -69,21 +38,174 @@ footer{
     justify-content: left;
 
 }
+
 #final {
     background-color: dimgrey;
 }
 h4 {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:white
+    color:white;
+    text-decoration: underline;
+    
 }
-footer li {
+footer li a{
     color: white;
-
 }
-/*ACA PARA TODAS LAS REDES*/
+
+.contactanosTexto{
+    color: white;
+}
+
+#puño_footer{
+    filter:brightness(1.1);
+    mix-blend-mode: multiply;
+}
+#redes_footer{
+    filter:brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+
+
+/* PAGINA INDEX*/
+
+/*ACA ESTA LA IMAGEN DEL LOGO TKD*/
+#logo_index {
+    border-style:groove;
+    margin-left: 20px;
+}
+
+/*ACA ESTA LA IMAGEN DE FONDO*/
+#header_index {
+    background-image: url(assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: auto;
+}
+/*ACA ESTA EL TITULO DE TKD*/
+#h1_index {
+margin-top: 400px;
+text-decoration:underline;
+font-weight:800;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+
+/*ACA ESTA PARA LA IMAGEN CARICATURA */
+#caricatura_index {
+    display:flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*ACA ESTA PARA EL PARRAFO CON LA FRASE */
+#p_index{
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    text-align: justify;
+    font-size: 20px;
+}
 
 
 /*PAGINA HISTORIA*/
-historia.html h1 {
+#header_historia {
+    background-color: white;
+}
+#h1_historia {
+    text-decoration:underline;
+    font-weight:800;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    }
+#h2_historia {
+    margin-top: 20px;
+}
+#p1_historia {
+    text-align: justify;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+#p2_historia {
+    text-align: justify;
+}
+#p3_historia {
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+#fundacion_historia {
+    padding-top: 160px;
+}
+#chonghi_historia {
+    padding-bottom: 20px;
+}
+#h3_historia {
+    margin-top: 30px;
+}
+#p4_historia {
+    text-align: justify;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+#carouselExampleControls {
+    width: 400px;
     text-align: center;
+    margin:auto
+}
+
+
+/*PAGINA CONTACTO*/
+
+#h3_contacto {
+    text-justify: center;
+}
+#formularios_contacto {
+    margin-top: 50px;
+}
+
+/*PAGINA PRINCIPIOS*/
+
+#h1_principios {
+text-decoration:underline;
+font-weight:800;
+margin-bottom: 20px;
+text-justify: center;
+align-self: center;
+}
+#introduccion_principios {
+    text-align: center;
+}
+/*PAGINA ESCUELA*/
+#h1_escuela {
+    text-decoration:underline;
+    font-weight:800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-justify: center;
+    align-self: center;
+    margin-bottom: 100px
+    }
+#introduccion_escuela {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+/*PAGINA POSICIONES*/
+#h1_posiciones {
+    text-decoration:underline;
+    font-weight:800;
+    margin-bottom: 20px;
+    text-justify: center;
+    align-self: center;
+    }
+#posicion{
+    margin-bottom: 30px;
+    margin-top: 40px;
 }
